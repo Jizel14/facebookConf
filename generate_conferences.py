@@ -24,7 +24,7 @@ status: "{conf['status']}"
 
     # Contenu Markdown additionnel (par ex. programme, etc.)
     content = f"# Contenu de la conférence {conf['titre']}\n\n"
-    content += f"Conférence animée par {conf['presentateur']} le {conf['date_conference']} à {conf['lieu']}.\n"
+    content += f"Conférence animée par {conf['presenteur']} le {conf['date_conference']} à {conf['lieu']}.\n"
     content += f"Prix : {conf['prix']} | Places : {conf['nb_place']}\n"
     content += f"Ressource : {conf['resource']}\n"
     
