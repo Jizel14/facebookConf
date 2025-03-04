@@ -33,13 +33,13 @@ status: "{conf['status']}"
 def main():
     # 1) Se connecter à la BDD
     connection = pymysql.connect(
-        host='localhost',
-        user='root',
-        password='votre_mot_de_passe',
-        db='votre_base',
-        charset='utf8mb4',
-        cursorclass=pymysql.cursors.DictCursor
-    )
+    host='localhost',
+    user='root',
+    password='',
+    db='pi_3a',
+    charset='utf8mb4',
+    cursorclass=pymysql.cursors.DictCursor
+)
 
     try:
         with connection.cursor() as cursor:
