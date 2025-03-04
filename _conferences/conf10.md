@@ -2,7 +2,7 @@
 layout: conference
 title: "Conférence trr"
 description: "Une conférence sur Technologie..."
-image: "https://votresite.com/images/conf10.jpg"
+image: "C:/Users/jizel/OneDrive/Bureau/map_icon.png"
 permalink: /conferences/conf10/
 date_conf: "2025-04-01"
 lieu: "Paris"
